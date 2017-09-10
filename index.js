@@ -6,7 +6,7 @@ var board = new five.Board({
 
 board.on("ready", function() {
 
-
+  cı
   // Select an LED from the kit
   // (red, green, blue) and insert
   // it into the LED module, with
@@ -16,5 +16,7 @@ board.on("ready", function() {
 
   // This will blink the LED over
   // 500ms periods.
-  led.blink(500);
+  led.blink(500).then(data => {
+    console.log(data);
+  });
 });
