@@ -15,7 +15,5 @@ board.on("ready", function() {
 
   // This will blink the LED over
   // 500ms periods.
-  led.blink(500).then(data => {
-    console.log(data);
-  });
+  led.blink(500);
 });
