@@ -6,7 +6,6 @@ var board = new five.Board({
 
 board.on("ready", function() {
 
-  cı
   // Select an LED from the kit
   // (red, green, blue) and insert
   // it into the LED module, with
